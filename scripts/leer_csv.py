@@ -4,7 +4,7 @@
 
 # TODO 1: importa pandas y carga data/ventas.csv en un DataFrame
 import pandas as pd
-ventas_csv=pd.read_csv(r"C:\Users\User\PycharmProjects\IDSD422-lab1-lectura-datos\data\ventas.csv")
+ventas_csv=pd.read_csv("data/ventas.csv")
 # TODO 2: imprime las dimensiones (filas, columnas) del DataFrame
 print("===== Dimensiones =====")
 a,b = ventas_csv.shape
